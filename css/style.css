@@ -1,4 +1,53 @@
-body {
-  background-color: bisque;
-
+header {
+  font-family: 'Lemonada', cursive;
+  color: black;
+  text-align: center;
+  background-color: white;
+  background-image: url(../lab-assets/fish.jpg);
 }
+#boxone {
+  border: rgb(54, 22, 22);
+  background-color:beige;
+}
+body {
+  font-family: 'Lemonada', cursive;
+  background-image: linear-gradient(rgba(153, 225, 238, 0.829), rgba(255, 255, 255, 0.836));
+}
+nav ul li {
+  display: inline;
+  margin: 50px;
+  border: 50px;
+  padding: 50px;
+}
+#pat {
+  text-align: left;
+  border-radius: 35%;
+  float: left;
+  margin: 10px;
+}
+#pat-text {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(41, 91, 124);
+  font-size: 2em;
+  text-align: right;
+}
+.size {
+  height: 100px;
+  width: 100px;
+}
+#extra {
+  text-align: center;
+  background-color: rgb(37, 177, 212);
+  color: rgb(36, 33, 88);
+  animation: blinker 1s linear infinite;
+}
+.big {
+  height: 100px;
+  width: 300px;
+}
+footer {
+  color: rgb(99, 67, 67);
+}
+
+
+/*Kevin McNeil rewrote and assisted with code revisions*/
